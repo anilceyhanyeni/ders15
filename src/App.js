@@ -1,7 +1,14 @@
+import AddTodoForm from "./AddTodoForm";
+import TodoList from "./TodoList";
+import Tamamlanan from "./redux/Tamamlanan";
 
 function App() {
   return (
- <div>App</div>
+    <section className="container">
+      <AddTodoForm />
+      <TodoList />
+      <Tamamlanan/>
+    </section>
   );
 }
 
